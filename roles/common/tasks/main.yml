@@ -1,0 +1,3 @@
+---
+- name: oc login
+  command: oc login {{ openshift_master_url }}:{{ openshift_master_port }} -u{{ openshift_admin_user }} -p{{ openshuft_admin_pass}} --insecure-skip-tls-verify

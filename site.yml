@@ -1,0 +1,8 @@
+---
+- hosts: openshift-master
+  become: yes
+  become_method: sudo
+
+  roles:
+    - common
+    - hello_world

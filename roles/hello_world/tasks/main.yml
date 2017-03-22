@@ -1,0 +1,3 @@
+---
+ - name: Create new helloworld app
+   command: oc new-app {{ openshift_app_git_repo }} {{ post_args }}
