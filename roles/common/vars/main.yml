@@ -2,4 +2,4 @@
 openshift_master_url: "localhost"
 openshift_master_port: "8443"
 openshift_admin_user: "admin"
-openshuft_admin_pass: "admin"
+openshift_admin_pass: "admin"
