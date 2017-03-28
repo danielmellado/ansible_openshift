@@ -5,4 +5,4 @@
 
   roles:
     - common
-    - hello_world
+    - hello_world_router
