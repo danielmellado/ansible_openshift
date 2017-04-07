@@ -2,7 +2,12 @@
 - hosts: openshift-master
   become: yes
   become_method: sudo
+  vars_files:
+      - group_vars/all
 
   roles:
     - common
-    - hello_world_router
+    - create_hello_world
+    - scale_hello_world
+    - expose_route_hello_world
+    - destroy_hello_world

@@ -1,0 +1,6 @@
+---
+openshift_master_url: "localhost"
+openshift_master_port: "8443"
+openshift_admin_username: "admin"
+openshift_admin_password: "admin"
+application_name: "my-hello-world"

@@ -1,0 +1,3 @@
+---
+ - name: oc expose route to app
+   command: oc expose service/{{ application_name }} --hostname {{ route }}
